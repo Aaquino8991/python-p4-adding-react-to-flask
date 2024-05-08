@@ -66,7 +66,6 @@ def messages_by_id(id):
             jsonify({'deleted': True}),
             200,
         )
-
     return response
 
 if __name__ == "__main__":
